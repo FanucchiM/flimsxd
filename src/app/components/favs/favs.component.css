@@ -1,0 +1,58 @@
+.favorite-movies {
+    background-color: var(--highlight-bg);
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .favorite-movie-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .favorite-movie-item {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .favorite-movie-content {
+    background-color: var(--mask-bg);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
+  }
+  
+  .favorite-movie-img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .movie-details {
+    text-align: center;
+  }
+  
+  .movie-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .btn-remove-favorite {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .btn-remove-favorite:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+  }
+  

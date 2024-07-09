@@ -1,0 +1,21 @@
+<div class="favorite-movies">
+    <h2>Mis películas favoritas</h2>
+  
+    <div *ngIf="peliculas.length > 0; else noFavorites" class="favorite-movie-list">
+      <div *ngFor="let pelicula of peliculas" class="favorite-movie-item">
+        <div class="favorite-movie-content">
+          <img [src]="pelicula.ImgPath" alt="{{ pelicula.Titulo }}" class="favorite-movie-img">
+          <div class="movie-details">
+            <h3>{{ pelicula.Titulo }}</h3>
+            <p> {{ pelicula?.Descripcion }}</p>
+          </div>
+        </div>
+        <button class="btn-remove-favorite" (click)="quitarDeFavoritos(pelicula)">Quitar de favoritos</button>
+      </div>
+    </div>
+  
+    <ng-template #noFavorites>
+      <p>No has añadido ninguna película a favoritos.</p>
+    </ng-template>
+  </div>
+  

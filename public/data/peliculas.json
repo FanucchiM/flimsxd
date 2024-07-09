@@ -1,0 +1,76 @@
+
+[
+    {
+      "Titulo": "Mad Max: Fury Road",
+      "Genero": "Acción",
+      "Anio": 2015,
+      "Descripcion": "En un futuro post-apocalíptico, una mujer rebelde se une a un grupo de prisioneras, un psicótico adorador y un vagabundo llamado Max para intentar escapar de un tirano y buscar su hogar.",
+      "ImgPath": "images/madmax.jpg",
+      "Duracion": 7200
+    },
+    {
+      "Titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "Genero": "Fantasía",
+      "Anio": 2001,
+      "Descripcion": "Un hobbit joven y sus amigos se embarcan en una peligrosa misión para destruir un anillo poderoso y salvar la Tierra Media del malvado Sauron.",
+      "ImgPath": "images/lotr1.jpg",
+      "Duracion": 12600
+    },
+    {
+      "Titulo": "Shrek 2",
+      "Genero": "Animación",
+      "Anio": 2004,
+      "Descripcion": "Shrek y Fiona viajan a la tierra de Muy Muy Lejano para conocer a los padres de Fiona, pero no todo va bien en el reino.",
+      "ImgPath": "images/shrek2.jpg",
+      "Duracion": 5700
+    },
+    {
+      "Titulo": "Inception",
+      "Genero": "Ciencia ficción",
+      "Anio": 2010,
+      "Descripcion": "Un ladrón que roba secretos corporativos a través del uso de tecnología de sueño compartido es dado la tarea inversa de plantar una idea en la mente de un CEO.",
+      "ImgPath": "images/inception.jpg",
+      "Duracion": 8880
+    },
+    {
+      "Titulo": "The Dark Knight",
+      "Genero": "Acción",
+      "Anio": 2008,
+      "Descripcion": "Cuando el Joker emerge como una nueva amenaza criminal, Batman debe enfrentar uno de sus desafíos más grandes para salvar Gotham.",
+      "ImgPath": "images/darkknight.jpg",
+      "Duracion": 9120
+    },
+    {
+      "Titulo": "Titanic",
+      "Genero": "Romance",
+      "Anio": 1997,
+      "Descripcion": "Una historia de amor prohibido y la lucha por la supervivencia a bordo del infame barco RMS Titanic.",
+      "ImgPath": "images/titanic.jpg",
+      "Duracion": 11760
+    },
+    {
+      "Titulo": "Avatar",
+      "Genero": "Ciencia ficción",
+      "Anio": 2009,
+      "Descripcion": "Un parapléjico ex-marine se ve envuelto en el conflicto de un mundo alienígena cuando se infiltra entre los nativos Na'vi en Pandora.",
+      "ImgPath": "images/avatar.jpg",
+      "Duracion": 9720
+    },
+    {
+      "Titulo": "The Matrix",
+      "Genero": "Ciencia ficción",
+      "Anio": 1999,
+      "Descripcion": "Un hacker descubre que la realidad que conoce es una simulación creada por máquinas y se une a una rebelión para liberar a la humanidad.",
+      "ImgPath": "images/matrix.jpg",
+      "Duracion": 8160
+    },
+    {
+      "Titulo": "Pulp Fiction",
+      "Genero": "Crimen",
+      "Anio": 1994,
+      "Descripcion": "Las vidas de dos mafiosos, un boxeador, una esposa de gánster y dos bandidos se entrelazan en cuatro cuentos de violencia y redención.",
+      "ImgPath": "images/pulpfiction.jpg",
+      "Duracion": 9240
+    }
+  ]
+  

@@ -1,0 +1,25 @@
+<div class="custom-bg">
+    <div *ngIf="peliculas.length > 0; else noMovies" class="movie-list">
+        <div class="movie-item" *ngFor="let pelicula of peliculas">
+          <div class="movie-content">
+            <img [src]="pelicula.ImgPath" alt="{{ pelicula.Titulo }}" class="movie-img">
+            <div class="movie-details">
+              <h2>{{ pelicula.Titulo }}</h2>
+              <p><strong>Género:</strong> {{ pelicula.Genero }}</p>
+              <p><strong>Duración:</strong> {{ pelicula.Duracion | number }} segundos</p>
+              <button class="btn-favorite" 
+               (click)="agregarAFavoritos(pelicula)" 
+               [disabled]="pelicula.agregadoAFavoritos">
+               {{ pelicula.agregadoAFavoritos ? 'Agregado' : 'Agregar a favoritos' }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <ng-template #noMovies>
+        <p>No hay películas disponibles.</p>
+      </ng-template>
+      
+  </div>
+  
