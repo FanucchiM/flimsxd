@@ -10,35 +10,35 @@
   
   .movie-list {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se acomoden en múltiples líneas */
+    flex-wrap: wrap; 
   }
   
   .movie-item {
-    width: calc(33.33% - 20px); /* Ajusta el ancho del elemento para que haya tres en una fila */
-    margin-right: 20px; /* Espacio entre los elementos */
-    margin-bottom: 20px; /* Espacio debajo de los elementos */
+    width: calc(33.33% - 20px); 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
   }
   
   .movie-content {
-    background-color: var(--mask-bg); /* Color de fondo del contenido de la película */
+    background-color: var(--mask-bg); 
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     color: var(--text-color);
   }
   
   .movie-img {
-    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
-    margin-bottom: 10px; /* Espacio inferior de la imagen */
+    max-width: 100%; 
+    margin-bottom: 10px; 
   }
   
   .movie-details {
-    text-align: center; /* Alinea el contenido al centro */
+    text-align: center; 
   }
   
   .movie-details h2 {
-    margin-top: 0; /* Elimina el margen superior del título */
-    margin-bottom: 10px; /* Espacio inferior del título */
+    margin-top: 0; 
+    margin-bottom: 10px; 
   }
   
   .btn-favorite {
