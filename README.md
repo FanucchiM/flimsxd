@@ -5,6 +5,6 @@ Este proyecto esta hecho con angular 18, se trata de una pagina de peliculas en 
 
 Nombre:   Matias
 Apellido: Fanucchi
-DNI:      4128063
+DNI:      41928063
 E-mail:   matiasfanucchi99@gmail.com
-Sede:     Tandils
+Sede:     Tandil
